@@ -1,0 +1,1 @@
+fn(State<Arc<std::sync::Mutex<Vec<polls::Poll>>>>, Json<{type error}>) -> impl std::future::Future<Output = Json<polls::Poll>> {create_poll}
